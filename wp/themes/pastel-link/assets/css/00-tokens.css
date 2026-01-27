@@ -1,0 +1,35 @@
+:root{
+  /* ===== Pastel Color System ===== */
+  --bg: #f7f8fc;
+  --surface: #ffffff;
+  --surface-soft: #f1f3f9;
+
+  --text: #2d2f36;
+  --muted: #7a8091;
+
+  --primary: #7fd6c2;
+  --primary-strong:#55c6ae;
+
+  --accent: #ffb7c5;
+  --accent-soft:#ffe3ea;
+
+  --border: #e6e8f0;
+
+  --radius: 18px;
+
+  /* ===== alias（いまのCSSで使ってる名前に合わせる） ===== */
+  --line: var(--border);
+  --card: var(--surface);
+  --fg: var(--text);
+
+  /* ===== Buttons ===== */
+  --btn-radius: 999px;
+  --btn-h: 44px;
+  --shadow-soft: 0 10px 24px rgba(0,0,0,.10);
+  --shadow-pop: 0 14px 34px rgba(0,0,0,.16);
+
+    /* ===== Layout (optional but useful) ===== */
+  --container: 1120px;
+  --header-h: 72px;
+}
+

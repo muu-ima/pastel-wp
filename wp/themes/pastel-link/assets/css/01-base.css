@@ -1,0 +1,34 @@
+/* 01-base.css */
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a{ color:inherit; text-decoration:none; }
+
+/* layout base */
+.pl-container{
+  max-width: var(--container, 1120px);
+  margin:0 auto;
+  padding:0 20px;
+}
+
+.pl-section{ padding:100px 0; }
+.pl-dark{ background:var(--bg); color:var(--text); }
+.pl-light{ background:#fff; color:#111; }
+
+/* typography */
+.pl-center{ text-align:center; }
+.pl-eyebrow{ font-size:12px; letter-spacing:.14em; opacity:.7; text-transform:uppercase; }
+.pl-h1{ font-size:clamp(32px, 4vw, 54px); line-height:1.1; margin:12px 0 14px; }
+.pl-h2{ font-size:clamp(24px, 3vw, 36px); line-height:1.2; margin:0 0 18px; }
+.pl-h3{ font-size:18px; margin:16px 0 8px; }
+.pl-lead{ font-size:14px; line-height:1.9; color:var(--muted); max-width:60ch; }
+.pl-lead--dark{ color:rgba(0,0,0,.75); }
+.pl-muted{ color:rgba(255,255,255,.7); font-size:13px; line-height:1.8; }
+.pl-accent{ color:var(--accent); }

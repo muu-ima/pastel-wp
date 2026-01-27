@@ -1,0 +1,209 @@
+0000.000 (0) Opened log file at time: Mon, 26 Jan 2026 09:28:57 +0000 on http://localhost:8080
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.1 WP: 6.9 PHP: 8.3.30 (apache2handler, Linux 7d0112433d8a 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64) MySQL: 8.0.43 (max packet size=67108864) WPLANG: ja Server: Apache/2.4.66 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.3M | 6M) multisite: N openssl: OpenSSL 3.5.4 30 Sep 2025 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 907337.8 MB
+0000.031 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.041 (0) Semaphore (fd, wp_options) being initialised
+0000.068 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.096 (0) Set semaphore last lock (fd) time to 2026-01-26 09:28:57
+0000.107 (0) Semaphore lock (fd) complete
+0000.139 (0) Backup run: resumption=0, nonce=9ec0aaf2026d, file_nonce=9ec0aaf2026d begun at=1769419737 (0s ago), job type=backup
+0000.158 (0) Scheduling a resumption (1) after 300 seconds (1769420037) in case this run gets aborted
+0000.192 (0) Checking if we have a zip executable available
+0000.214 (0) Creation of backups of directories: beginning
+0000.246 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.302 (0) Total entities for the zip file: 479 directories, 3103 files (0 skipped as non-modified), 41.9 MB
+0000.314 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.326 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.335 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.348 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.360 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.373 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.389 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.402 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.412 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.423 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.434 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.6 MB, 3103 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.873 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1100 files added (on-disk size: 3573.4 KB)
+0000.888 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1200 files added (on-disk size: 3573.4 KB)
+0000.909 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1300 files added (on-disk size: 3573.4 KB)
+0000.922 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1400 files added (on-disk size: 3573.4 KB)
+0000.936 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1500 files added (on-disk size: 3573.4 KB)
+0000.949 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1600 files added (on-disk size: 3573.4 KB)
+0000.965 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1700 files added (on-disk size: 3573.4 KB)
+0000.981 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1800 files added (on-disk size: 3573.4 KB)
+0001.002 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 1900 files added (on-disk size: 3573.4 KB)
+0001.016 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2000 files added (on-disk size: 3573.4 KB)
+0001.026 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.3 MB, 3103 files batched, 1001 (2002) added so far); re-opening (prior size: 3573.4 KB)
+0001.331 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2100 files added (on-disk size: 5209.5 KB)
+0001.345 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2200 files added (on-disk size: 5209.5 KB)
+0001.356 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2300 files added (on-disk size: 5209.5 KB)
+0001.368 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2400 files added (on-disk size: 5209.5 KB)
+0001.379 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2500 files added (on-disk size: 5209.5 KB)
+0001.390 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2600 files added (on-disk size: 5209.5 KB)
+0001.402 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2700 files added (on-disk size: 5209.5 KB)
+0001.413 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2800 files added (on-disk size: 5209.5 KB)
+0001.424 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 2900 files added (on-disk size: 5209.5 KB)
+0001.437 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 3000 files added (on-disk size: 5209.5 KB)
+0001.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.1 MB, 3103 files batched, 1001 (3003) added so far); re-opening (prior size: 5209.5 KB)
+0002.754 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.tmp: 3100 files added (on-disk size: 11915.3 KB)
+0002.930 (0) Creating zip file manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.list-temp.tmp)
+0002.945 (0) Successfully created zip file manifest (size: 312437)
+0003.064 (0) Created plugins zip (0) - 12479.6 KB in 2.8 s (4462.5 KB/s) (sha1: 2b6b3584d271998e5b715af63d1dc90fbb4e36a7, sha256: 12ed4da1e4ff51004b0e207063a987178df393d5487c31f5ce1aca894e01c3f8)
+0003.094 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.103 (0) No remote despatch: user chose no remote backup service
+0003.113 (0) Recording as successfully uploaded: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip
+0003.131 (0) Deleting zip manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip.list.tmp)
+0003.153 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.162 (0) Number of backup sets in history: 0; groups (db): 1
+0003.170 (0) Number of backup sets in history: 0; groups (files): 1
+0003.179 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.227 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.252 (0) Total entities for the zip file: 48 directories, 403 files (0 skipped as non-modified), 13.7 MB
+0003.266 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.278 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.289 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.301 (0) Zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.673 (0) Creating zip file manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.list-temp.tmp)
+0003.683 (0) Successfully created zip file manifest (size: 28420)
+0003.802 (0) Created themes zip (0) - 12909.7 KB in 0.6 s (23217.7 KB/s) (sha1: 27b2d2ac9c587aac9e5980c8c1e59c356b64a631, sha256: 864dbcc65b1ea49bfd00f29a25f0ad174f17c14bb4e4645c5a4f1dba54ec500c)
+0003.847 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.857 (0) No remote despatch: user chose no remote backup service
+0003.867 (0) Recording as successfully uploaded: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip
+0003.890 (0) Deleting zip manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip.list.tmp)
+0003.910 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.923 (0) Number of backup sets in history: 0; groups (db): 1
+0003.932 (0) Number of backup sets in history: 0; groups (files): 1
+0003.942 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.985 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0003.992 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0004.002 (0) finding files: 2026: adding to list (1)
+0004.011 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.029 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0004.047 (0) Did not find any files in the zip: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-uploads.zip.tmp
+0004.087 (0) Created uploads zip (0) - 0.2 KB in 0.1 s (4.1 KB/s) (sha1: 80eaf1c4d8974f39ae4d5017b254a6ca3a0a1f78, sha256: 8ecce0478aaab6adfc0b9c299c95d5cdb2def27a37b5ab2f841b35b4bd78192f)
+0004.096 (0) No backup of mu-plugins: excluded by user's options
+0004.117 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.126 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.135 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0004.142 (0) finding files: updraft: skipping: this is the updraft directory
+0004.150 (0) finding files: plugins: skipping: this is the plugins directory
+0004.158 (0) finding files: index.php: adding to list (1)
+0004.167 (0) finding files: languages: adding to list (2)
+0004.198 (0) finding files: uploads: skipping: this is the uploads directory
+0004.207 (0) finding files: themes: skipping: this is the themes directory
+0004.216 (0) finding files: upgrade: skipping: excluded by options
+0004.236 (0) Total entities for the zip file: 1 directories, 73 files (0 skipped as non-modified), 4.4 MB
+0004.506 (0) Creating zip file manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-others.zip.list-temp.tmp)
+0004.516 (0) Successfully created zip file manifest (size: 4151)
+0004.565 (0) Created others zip (0) - 1165.8 KB in 0.3 s (3520.5 KB/s) (sha1: 8d646de13510ed0a8c820bca43f4557afee0d0b4, sha256: 219a91489d9d23ef16e60d56ebe7c90c383c1154b3d5f7bcd559cb886dd23acc)
+0004.598 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.608 (0) No remote despatch: user chose no remote backup service
+0004.617 (0) Recording as successfully uploaded: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-others.zip
+0004.637 (0) Deleting zip manifest (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-others.zip.list.tmp)
+0004.658 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.669 (0) Number of backup sets in history: 0; groups (db): 1
+0004.679 (0) Number of backup sets in history: 0; groups (files): 1
+0004.689 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0004.752 (0) Saving backup status to database (elements: 8)
+0004.773 (0) Beginning creation of database dump (WordPress DB)
+0004.783 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0004.849 (0) Table wp_options: Total expected rows (via COUNT): 209
+0004.858 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.885 (0) Table wp_options: Rows added in this batch (next record: 211): 205 (uncompressed bytes in this segment=395442) in 0.05 seconds
+0004.924 (0) Table wp_options: finishing file(s) (2, 74.6 KB)
+0004.953 (0) Table wp_users: Total expected rows (via COUNT): 1
+0004.962 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.982 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1412) in 0.03 seconds
+0005.014 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0005.052 (0) Table wp_usermeta: Total expected rows (via COUNT): 18
+0005.062 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.071 (0) Table wp_usermeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1688) in 0.03 seconds
+0005.118 (0) Table wp_usermeta: finishing file(s) (2, 0.9 KB)
+0005.154 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0005.175 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.03 seconds
+0005.217 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0005.259 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0005.267 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.289 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2224) in 0.03 seconds
+0005.320 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0005.348 (0) Table wp_links: Total expected rows (via COUNT): 0
+0005.369 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0005.402 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0005.449 (0) Table wp_postmeta: Total expected rows (via COUNT): 2
+0005.461 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.483 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=782) in 0.05 seconds
+0005.529 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0005.566 (0) Table wp_posts: Total expected rows (via COUNT): 5
+0005.576 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.592 (0) Table wp_posts: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=12358) in 0.04 seconds
+0005.646 (0) Table wp_posts: finishing file(s) (2, 3.6 KB)
+0005.673 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0005.699 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=690) in 0.03 seconds
+0005.730 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0005.769 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0005.779 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.802 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=910) in 0.04 seconds
+0005.852 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0005.894 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0005.914 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.03 seconds
+0005.958 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0005.984 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0005.993 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.015 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=724) in 0.03 seconds
+0006.053 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0006.066 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0006.076 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_options.table.tmpr212.gz (1/12/fopen): adding to final database dump
+0006.085 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0006.094 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0006.103 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0006.111 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_usermeta.table.tmpr19.gz (5/12/fopen): adding to final database dump
+0006.121 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0006.134 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0006.142 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0006.152 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0006.162 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0006.172 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0006.180 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0006.190 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_postmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0006.208 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0006.224 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_posts.table.tmpr6.gz (15/12/fopen): adding to final database dump
+0006.233 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0006.242 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0006.251 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0006.260 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_term_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0006.272 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0006.280 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0006.288 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0006.298 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_terms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0006.306 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0006.318 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db.gz: finished writing out complete database file (83.9 KB)
+0006.361 (0) Total database tables backed up: 12 (backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db.gz, size: 86006, sha1: ecc33339426c67b7be3c186b9fa0039b84b62bb5, sha256: bb4d8d5ed026f409870b9fc254e16e2b15ed438fbf05fbe0327c2c6be637a6a9)
+0006.405 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-plugins.zip: plugins: This file has already been successfully processed
+0006.414 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-themes.zip: themes: This file has already been successfully processed
+0006.422 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.434 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-others.zip: others: This file has already been successfully processed
+0006.443 (0) backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.452 (0) Saving backup history. Total backup size: 26 MB
+0006.470 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0006.499 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.507 (0) No remote despatch: user chose no remote backup service
+0006.518 (0) Recording as successfully uploaded: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-uploads.zip
+0006.540 (0) Recording as successfully uploaded: backup_2026-01-26-1828_Pastel_Link_9ec0aaf2026d-db.gz
+0006.571 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.580 (0) Number of backup sets in history: 1; groups (db): 1
+0006.589 (0) Examining (for databases) backup set with group_id=0, nonce=9ec0aaf2026d, datestamp=1769419737 (Jan 26 2026 09:28:57)
+0006.597 (0) This backup set is the backup set just made, so will not be deleted.
+0006.597 (0) Number of backup sets in history: 1; groups (files): 1
+0006.607 (0) Examining (for files) backup set with nonce=9ec0aaf2026d, datestamp=1769419737 (Jan 26 2026 09:28:57)
+0006.607 (0) This backup set is the backup set just made, so will not be deleted.
+0006.615 (0) This backup set is the backup set just made, so will not be deleted.
+0006.615 (0) This backup set is the backup set just made, so will not be deleted.
+0006.615 (0) This backup set is the backup set just made, so will not be deleted.
+0006.615 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.625 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.647 (0) Resume backup (9ec0aaf2026d, 0): finish run
+0006.675 (0) Decremented the semaphore (fd) by 1
+0006.693 (0) Semaphore (fd) unlocked
+0006.701 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.731 (0) No email will/can be sent - the user has not configured an email address.
+0006.739 (0) The backup succeeded and is now complete
