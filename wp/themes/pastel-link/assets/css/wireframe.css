@@ -1,0 +1,86 @@
+/* =========================
+   Wireframe Mode (Improved)
+========================= */
+
+/* ===== 全装飾OFF ===== */
+*{
+  background: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  backdrop-filter: none !important;
+  color: #111 !important;
+}
+
+/* ===== ページ全体 ===== */
+body{
+  background:#fff !important;
+}
+
+
+/* =========================
+   構造（大枠：濃く）
+========================= */
+main,
+header,
+footer,
+section{
+  outline: 2px solid #9aa3b2 !important;
+}
+
+
+/* =========================
+   ブロック（中枠：中）
+========================= */
+.pl-container,
+.pl-card,
+.pl-step,
+.pl-template,
+.pl-news-card,
+.pl-cta,
+.pl-hero__content,
+.pl-faq__item{
+  outline: 1.5px solid #b8bfca !important;
+}
+
+
+/* =========================
+   小要素（薄く）
+========================= */
+.pl-btn,
+.pl-badge,
+.pl-news-tag,
+.pl-price{
+  border: 1px solid #cfd5df !important;
+  background: #f3f3f3 !important;
+}
+
+
+/* =========================
+   画像・動画（ダミー化）
+========================= */
+img,
+video{
+  opacity: .08 !important;
+  background:#e5e5e5 !important;
+}
+
+
+/* =========================
+   テキストを見やすく
+========================= */
+h1,h2,h3,h4,p,span{
+  opacity:.9 !important;
+}
+
+
+/* =========================
+   グリッド確認用（任意）
+========================= */
+/*
+.pl-container{
+  background:
+    linear-gradient(#eee 1px, transparent 1px),
+    linear-gradient(90deg,#eee 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+*/

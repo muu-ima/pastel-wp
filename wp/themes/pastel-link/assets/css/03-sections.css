@@ -458,22 +458,24 @@ body.admin-bar .pl-header{ top:32px; }
 .pl-drawer__panel{
   position:absolute;
   top:0;
-  left:0;
+  right:0;       /* ← left:0 をやめて right:0 */
+  left:auto;
+
   height:100dvh;
   width:min(340px, 85vw);
 
-  background:rgba(255,255,255,.78);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  /* uki寄せなら面 */
+  background: var(--bg-mint);
 
-  border-right:1px solid rgba(0,0,0,.08);
-  box-shadow: 10px 0 40px rgba(0,0,0,.12);
+  border-left: 1px solid var(--border); /* ← border-right じゃなく左 */
+  box-shadow: -10px 0 40px rgba(0,0,0,.08); /* ← 影の向きも反転 */
 
-  padding:24px;
+  padding: 28px;
 
-  transform: translateX(-105%);
+  transform: translateX(105%);  /* ← 右へ逃がす */
   transition: transform .28s ease;
 }
+
 .pl-drawer.is-open{
   opacity:1;
   pointer-events:auto;
