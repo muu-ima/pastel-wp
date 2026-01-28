@@ -22,6 +22,9 @@
   --card: var(--surface);
   --fg: var(--text);
 
+  /* ===== Font ===== */
+    --font-main: "Zen Kaku Gothic Antique", sans-serif;
+
   /* ===== Buttons ===== */
   --btn-radius: 999px;
   --btn-h: 44px;

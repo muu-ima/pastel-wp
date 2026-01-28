@@ -92,3 +92,12 @@ add_action('wp_enqueue_scripts', function () {
     true
   );
 });
+
+add_action('wp_enqueue_scripts', function () {
+  wp_enqueue_style(
+    'pl-fonts',
+    'https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700&display=swap',
+    [],
+    null
+  );
+});

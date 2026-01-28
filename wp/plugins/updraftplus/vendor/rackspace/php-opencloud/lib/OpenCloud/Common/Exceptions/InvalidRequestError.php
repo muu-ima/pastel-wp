@@ -1,4 +1,4 @@
-<?php
+git branch -M main<?php
 /**
  * Copyright 2012-2014 Rackspace US, Inc.
  *

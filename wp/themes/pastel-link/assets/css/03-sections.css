@@ -261,18 +261,51 @@ body.admin-bar .pl-header{ top:32px; }
    FOOTER
 =================================== */
 .pl-footer{
-  background:#0b0b0c;
-  color:#fff;
-  padding:54px 0;
-  border-top:1px solid rgba(255,255,255,.08);
+  background: var(--bg-sky);
+  padding: 100px 0 60px;
+  border-top: 1px solid var(--border);
 }
-.pl-footer__cols{display:flex; justify-content:space-between; gap:18px;}
-.pl-footer__title{font-weight:1000; letter-spacing:.08em;}
-.pl-footer__small{font-size:12px; opacity:.75; margin-top:10px;}
-.pl-footer__links{display:flex; gap:14px; font-size:13px; opacity:.9;}
-.pl-footer__copy{margin-top:24px; font-size:12px; opacity:.6;}
-@media (max-width: 900px){
-  .pl-footer__cols{flex-direction:column;}
+
+.pl-footer__inner{
+  text-align:center;
+}
+
+.pl-footer__brand{
+  margin-bottom:40px;
+}
+
+.pl-footer__logo{
+  font-weight:700;
+  letter-spacing:.08em;
+}
+
+.pl-footer__tag{
+  margin-top:10px;
+  font-size:14px;
+  color:var(--muted);
+}
+
+.pl-footer__nav{
+  display:flex;
+  justify-content:center;
+  gap:28px;
+  margin-bottom:40px;
+  font-size:14px;
+}
+
+.pl-footer__nav a{
+  color:var(--fg);
+  opacity:.7;
+  text-decoration:none;
+}
+
+.pl-footer__nav a:hover{
+  opacity:1;
+}
+
+.pl-footer__copy{
+  font-size:12px;
+  color:var(--muted);
 }
 
 /* =========================
