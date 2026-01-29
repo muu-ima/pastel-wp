@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Pastel Link theme functions
  */
@@ -10,7 +11,8 @@ if (!defined('ABSPATH')) {
  * Theme setup
  */
 add_action('after_setup_theme', 'pastel_link_setup');
-function pastel_link_setup() {
+function pastel_link_setup()
+{
   // <title> をWPに任せる
   add_theme_support('title-tag');
 
@@ -46,7 +48,8 @@ function pastel_link_setup() {
  * News（お知らせ）: CPT
  */
 add_action('init', 'pastel_link_register_news');
-function pastel_link_register_news() {
+function pastel_link_register_news()
+{
   register_post_type('pl_news', array(
     'label' => 'News',
     'public' => true,
@@ -70,7 +73,18 @@ function pastel_link_register_news() {
  * Enqueue assets
  */
 add_action('wp_enqueue_scripts', 'pastel_link_enqueue_assets');
-function pastel_link_enqueue_assets() {
+function pastel_link_enqueue_assets()
+{
+
+  // ✅ Editor (Fullscreen) テンプレは、テーマCSS/JSを読まない
+  if (is_page_template('page-editor.php')) {
+    // 必要ならここで editor専用CSSだけ読み込む
+    // wp_enqueue_style('pl-editor', get_stylesheet_directory_uri().'/assets/css/05-editor.css', [], '1.0');
+
+    // drawer.js も不要なら読まない
+    return;
+  }
+  
   $css = get_stylesheet_directory_uri() . '/assets/css/';
   $js  = get_stylesheet_directory_uri() . '/assets/js/';
   $ver = wp_get_theme()->get('Version');
@@ -88,6 +102,15 @@ function pastel_link_enqueue_assets() {
   wp_enqueue_style('pl-01-base',       $css . '01-base.css',       ['pl-00-tokens'], $ver);
   wp_enqueue_style('pl-02-components', $css . '02-components.css', ['pl-01-base'], $ver);
   wp_enqueue_style('pl-03-sections',   $css . '03-sections.css',   ['pl-02-components'], $ver);
+  // ===== Order page only =====
+  if (is_page('order') || is_page_template('page-order.php')) {
+    wp_enqueue_style(
+      'pl-04-pages-order',
+      $css . '04-pages-order.css',
+      ['pl-03-sections'],
+      $ver
+    );
+  }
 
   // style.css（テーマ情報用）
   wp_enqueue_style('pastel-link-style', get_stylesheet_uri(), ['pl-03-sections'], $ver);

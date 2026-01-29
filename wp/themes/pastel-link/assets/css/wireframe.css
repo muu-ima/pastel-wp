@@ -1,21 +1,51 @@
 /* =========================
-   Wireframe Mode (Improved)
+   Wireframe Mode (Merged)
+   - 枠線の強弱（既存の思想）
+   - 画像/動画のダミー化、UI判別性（改善）
 ========================= */
 
-/* ===== 全装飾OFF ===== */
-*{
+:root{
+  --wf-strong: #9aa3b2;
+  --wf-mid:    #b8bfca;
+  --wf-light:  #cfd5df;
+  --wf-fill:   rgba(0,0,0,.04);
+  --wf-fill-2: rgba(0,0,0,.07);
+  --wf-text:   #111;
+  --wf-muted:  #666;
+}
+
+/* ===== 全装飾OFF（ただし“判別に必要な枠”は後で付け直す） ===== */
+*,
+*::before,
+*::after{
   background: none !important;
   box-shadow: none !important;
   text-shadow: none !important;
+  filter: none !important;
   backdrop-filter: none !important;
-  color: #111 !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 /* ===== ページ全体 ===== */
-body{
+html, body{
   background:#fff !important;
+  color: var(--wf-text) !important;
 }
 
+/* リンクは残す（全部同じ色だと判別できないため） */
+a{
+  color: var(--wf-text) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* フォーム類：枠が消えると確認できないので最低限残す */
+button, input, select, textarea{
+  background: transparent !important;
+  color: var(--wf-text) !important;
+  border: 1px solid var(--wf-light) !important;
+  box-shadow: none !important;
+}
 
 /* =========================
    構造（大枠：濃く）
@@ -24,24 +54,35 @@ main,
 header,
 footer,
 section{
-  outline: 2px solid #9aa3b2 !important;
+  outline: 2px solid var(--wf-strong) !important;
+  outline-offset: -1px;
 }
-
 
 /* =========================
    ブロック（中枠：中）
+   ※ orderで使う主要要素も含める
 ========================= */
 .pl-container,
 .pl-card,
-.pl-step,
 .pl-template,
 .pl-news-card,
 .pl-cta,
 .pl-hero__content,
-.pl-faq__item{
-  outline: 1.5px solid #b8bfca !important;
+.pl-faq__item,
+.pl-order__gallery,
+.pl-order__panel,
+.pl-order__info,
+.pl-recoCard{
+  outline: 1.5px solid var(--wf-mid) !important;
+  outline-offset: -1px;
 }
 
+/* FLOW/STEP は orderとtopで名前が分かれてる前提に寄せる */
+.pl-step,
+.pl-flow__step{
+  outline: 1.5px solid var(--wf-mid) !important;
+  outline-offset: -1px;
+}
 
 /* =========================
    小要素（薄く）
@@ -49,29 +90,78 @@ section{
 .pl-btn,
 .pl-badge,
 .pl-news-tag,
-.pl-price{
-  border: 1px solid #cfd5df !important;
-  background: #f3f3f3 !important;
+.pl-price,
+.pl-chip,
+.pl-thumb,
+.pl-swatch,
+.pl-news-badge,
+.pl-flow__badge,
+.pl-flow__step__badge{
+  border: 1px solid var(--wf-light) !important;
+  background: rgba(0,0,0,.03) !important;
+  color: var(--wf-text) !important;
 }
 
+/* active の視認性 */
+.is-active{
+  background: var(--wf-fill-2) !important;
+}
 
 /* =========================
    画像・動画（ダミー化）
+   - 画像は“枠”として見える方が便利
 ========================= */
 img,
 video{
-  opacity: .08 !important;
-  background:#e5e5e5 !important;
+  opacity: 0.08 !important;
+  background: #e5e5e5 !important;
 }
 
+/* Heroの動画/背景レイヤーは消して“箱”にする */
+.pl-hero{
+  background: rgba(0,0,0,.03) !important;
+  color: var(--wf-text) !important;
+}
+.pl-hero__video,
+.pl-hero__bg,
+.pl-hero__overlay{
+  display:none !important;
+}
+
+/* 疑似画像領域：中身は無いのでダミーの塗り＋点線枠 */
+.pl-news-thumb,
+.pl-order__heroImg,
+.pl-recoCard__img,
+.pl-flow__shot,
+.pl-flow__step__shot,
+.pl-previewCard__face,
+.pl-designTile__thumb{
+  background: var(--wf-fill) !important;
+  border: 1px dashed var(--wf-light) !important;
+}
 
 /* =========================
-   テキストを見やすく
+   テキスト：見やすさ
 ========================= */
-h1,h2,h3,h4,p,span{
-  opacity:.9 !important;
+h1,h2,h3,h4,p,span,dt,dd{
+  opacity: .92 !important;
 }
 
+.pl-muted,
+.pl-news-sub{
+  color: var(--wf-muted) !important;
+}
+
+/* =========================
+   Drawer：色を殺して枠だけ
+========================= */
+.pl-drawer__backdrop{
+  background: rgba(0,0,0,.12) !important;
+}
+.pl-drawer__panel{
+  background: #fff !important;
+  border-left: 1px solid var(--wf-light) !important;
+}
 
 /* =========================
    グリッド確認用（任意）

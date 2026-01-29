@@ -129,25 +129,25 @@ get_header();
         </div>
 
         <div class="pl-flow__grid">
-          <article class="pl-step">
-            <div class="pl-step__badge">STEP 1</div>
+          <article class="pl-flow__step">
+            <div class="pl-flow__step__badge">STEP 1</div>
             <h3 class="pl-h3">お支払い方法の登録</h3>
             <p class="pl-muted">購入完了後、必要な情報を登録します。（仮）</p>
-            <div class="pl-step__shot" aria-hidden="true"></div>
+            <div class="pl-flow__step__shot" aria-hidden="true"></div>
           </article>
 
-          <article class="pl-step">
-            <div class="pl-step__badge">STEP 2</div>
+          <article class="pl-flow__step">
+            <div class="pl-flow__step__badge">STEP 2</div>
             <h3 class="pl-h3">リンクURLの設定</h3>
             <p class="pl-muted">プロフィールURLなどを登録し、カードに紐づけます。（仮）</p>
-            <div class="pl-step__shot" aria-hidden="true"></div>
+            <div class="pl-flow__step__shot" aria-hidden="true"></div>
           </article>
 
-          <article class="pl-step">
-            <div class="pl-step__badge">STEP 3</div>
+          <article class="pl-flow__step">
+            <div class="pl-flow__step__badge">STEP 3</div>
             <h3 class="pl-h3">受け取り・利用開始</h3>
             <p class="pl-muted">カードが届いたら、タッチしてすぐ使えます。（仮）</p>
-            <div class="pl-step__shot" aria-hidden="true"></div>
+            <div class="pl-flow__step__shot" aria-hidden="true"></div>
           </article>
         </div>
 
@@ -193,4 +193,3 @@ get_header();
 </main>
 
 <?php get_footer(); ?>
-
