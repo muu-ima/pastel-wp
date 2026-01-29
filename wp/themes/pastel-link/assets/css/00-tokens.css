@@ -34,5 +34,6 @@
     /* ===== Layout (optional but useful) ===== */
   --container: 1120px;
   --header-h: 72px;
+  --header-gap: 28px;
 }
 

@@ -36,7 +36,7 @@
 
     <!-- right -->
     <div class="pl-header__right">
-      <a class="pl-header__cta" href="#contact">お問い合わせ</a>
+      <a class="pl-header__cta" href="#contact">購入する</a>
 
       <button class="pl-burger" id="plBurger" aria-label="メニューを開く" aria-expanded="false" type="button">
         <span class="pl-burger__line"></span>

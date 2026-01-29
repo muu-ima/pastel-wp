@@ -31,15 +31,59 @@
   font-weight:800;
 }
 
-/* grids */
+/* lineup：縦積み（1商品ずつ） */
 .pl-grid3{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:1fr;
   gap:18px;
   margin-top:22px;
 }
+
+/* 1商品 = 2カラム */
+.pl-product{
+  display:grid;
+  grid-template-columns: minmax(240px, 42%) 1fr;
+  gap:22px;
+  align-items:stretch;
+}
+
+/* 左の画像枠（見た目だけなら背景画像でOK） */
+.pl-product__media{
+  border-radius: 16px;
+  min-height: 220px;
+  background: #e9e9ef;          /* 仮 */
+  overflow:hidden;
+}
+
+/* 右の本文 */
+.pl-product__body{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  padding: 6px 0;
+}
+
+/* 価格 + ボタンを下に寄せる */
+.pl-product__foot{
+  margin-top:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+/* SP：1カラムに落とす */
 @media (max-width: 900px){
-  .pl-grid3{ grid-template-columns:1fr; }
+  .pl-product{
+    grid-template-columns: 1fr;
+  }
+  .pl-product__media{
+    min-height: 180px;
+  }
+  .pl-product__foot{
+    flex-direction:column;
+    align-items:flex-start;
+  }
 }
 
 /* split layout */

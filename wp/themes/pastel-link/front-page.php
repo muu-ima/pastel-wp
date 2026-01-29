@@ -89,28 +89,52 @@
             </p>
 
             <div class="pl-grid3">
-                <article class="pl-card">
-                    <div class="pl-card__img"></div>
-                    <h3 class="pl-h3">オフィシャルデザイン</h3>
-                    <p class="pl-muted">デザインが準備されているカードをお求めの方はこちら。グラデーション・シンプル・幾何学模様などの多様なデザインの中からお気に入りのデザインを見つけてください。まずはデジタル名刺を試したい方にもおすすめ。</p>
-                    <div class="pl-price">¥ x,xxx〜</div>
-                    <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                <article class="pl-card pl-product">
+                    <div class="pl-card__img pl-product__media" aria-hidden="true"></div>
+
+                    <div class="pl-product__body">
+                        <h3 class="pl-h3">オフィシャルデザイン</h3>
+                        <p class="pl-muted">
+                            デザインが準備されているカードをお求めの方はこちら。グラデーション・シンプル・幾何学模様などの多様なデザインの中からお気に入りのデザインを見つけてください。まずはデジタル名刺を試したい方にもおすすめ。
+                        </p>
+
+                        <div class="pl-product__foot">
+                            <div class="pl-price">¥ x,xxx〜</div>
+                            <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                        </div>
+                    </div>
                 </article>
 
-                <article class="pl-card">
-                    <div class="pl-card__img"></div>
-                    <h3 class="pl-h3">オリジナルデザイン</h3>
-                    <p class="pl-muted">デザインが準備されているカードをお求めの方はこちら。グラデーション・シンプル・幾何学模様などの多様なデザインの中からお気に入りのデザインを見つけてください。まずはデジタル名刺を試したい方にもおすすめ。</p>
-                    <div class="pl-price">¥ x,xxx〜</div>
-                    <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                <article class="pl-card pl-product">
+                    <div class="pl-card__img pl-product__media" aria-hidden="true"></div>
+
+                    <div class="pl-product__body">
+                        <h3 class="pl-h3">オリジナルデザイン</h3>
+                        <p class="pl-muted">
+                            デザインが準備されているカードをお求めの方はこちら。グラデーション・シンプル・幾何学模様などの多様なデザインの中からお気に入りのデザインを見つけてください。まずはデジタル名刺を試したい方にもおすすめ。
+                        </p>
+
+                        <div class="pl-product__foot">
+                            <div class="pl-price">¥ x,xxx〜</div>
+                            <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                        </div>
+                    </div>
                 </article>
 
-                <article class="pl-card">
-                    <div class="pl-card__img"></div>
-                    <h3 class="pl-h3">カスタムデザイン</h3>
-                    <p class="pl-muted">表面を自由にデザイン可能な、あなただけのデジタル名刺。操作も簡単。Web上のツールを使って、文字を配置したり、好きな画像をアップロードするだけで完成します。</p>
-                    <div class="pl-price">¥ x,xxx〜</div>
-                    <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                <article class="pl-card pl-product">
+                    <div class="pl-card__img pl-product__media" aria-hidden="true"></div>
+
+                    <div class="pl-product__body">
+                        <h3 class="pl-h3">カスタムデザイン</h3>
+                        <p class="pl-muted">
+                            表面を自由にデザイン可能な、あなただけのデジタル名刺。操作も簡単。Web上のツールを使って、文字を配置したり、好きな画像をアップロードするだけで完成します。
+                        </p>
+
+                        <div class="pl-product__foot">
+                            <div class="pl-price">¥ x,xxx〜</div>
+                            <a class="pl-btn pl-btn-ghost" href="#contact">詳しく見る</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </div>

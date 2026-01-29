@@ -13,6 +13,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.85;
   font-weight: 400;
+  padding-top: calc(var(--header-h) + var(--header-gap));
 }
 
 a {
