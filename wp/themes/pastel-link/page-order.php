@@ -165,7 +165,7 @@ get_header();
             <div class="pl-recoCard__img" aria-hidden="true"></div>
             <div class="pl-recoCard__body">
               <h3 class="pl-h3">オリジナルデザイン</h3>
-              <div class="pl-muted">¥2,980〜</div>
+              <div class="pl-muted">¥x,xxx〜</div>
             </div>
           </article>
 
@@ -173,7 +173,7 @@ get_header();
             <div class="pl-recoCard__img" aria-hidden="true"></div>
             <div class="pl-recoCard__body">
               <h3 class="pl-h3">パーソナライズデザイン</h3>
-              <div class="pl-muted">¥4,980〜</div>
+              <div class="pl-muted">¥x,xxx〜</div>
             </div>
           </article>
         </div>

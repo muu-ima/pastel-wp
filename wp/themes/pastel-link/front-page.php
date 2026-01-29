@@ -125,7 +125,7 @@
                     <div class="pl-card__img pl-product__media" aria-hidden="true"></div>
 
                     <div class="pl-product__body">
-                        <h3 class="pl-h3">カスタムデザイン</h3>
+                        <h3 class="pl-h3">パーソナライズデザイン</h3>
                         <p class="pl-muted">
                             表面を自由にデザイン可能な、あなただけのデジタル名刺。操作も簡単。Web上のツールを使って、文字を配置したり、好きな画像をアップロードするだけで完成します。
                         </p>
